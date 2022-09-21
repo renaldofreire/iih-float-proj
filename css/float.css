@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu-container{
+  color: #fff;
+  background-color: darkblue;
+  padding: 20px 0;
+}
+
+.menu{
+  border: 1px solid #fff; /* debugging */
+  width: 900px;
+
+}
+
+
+
+
+
