@@ -18,6 +18,7 @@
   width: 900px;
   display: flex;
   justify-content: space-between;
+  padding: 8px;
 }
 
 .links {
@@ -28,4 +29,26 @@
 
 .login {
   margin-left: 20px;
+}
+
+.header-container {
+  color: #5995da;
+  background-color: #e4ffaa;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  width: 900px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.social,
+.logo,
+.subscribe{
+  border: 1px solid #4E8DD7 ;
+
 }
