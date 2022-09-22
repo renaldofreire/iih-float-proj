@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Roboto&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: 'Roboto', sans-serif;
 }
 
 /* Flex Container */
@@ -43,12 +47,31 @@
   height: 300px;
   display: flex;
   justify-content: space-between;
-  align-items: stretch;
+  align-items: center;
 }
 
 .social,
 .logo,
-.subscribe{
-  border: 1px solid #4E8DD7 ;
+.subscribe {
+  border: 1px solid #4e8dd7;
+}
 
+.photo-grid-container {
+  display: flex;
+  justify-content: center;
+}
+
+.photo-grid {
+  width: 900px;
+  display: flex;
+  /* justify-content: center; acredito q nao necessita */
+  align-items: center;
+  flex-wrap: wrap; /* faz com não se encaixem, descendo para linha seguinte */
+  flex-direction: column;
+}
+
+.photo-grid-item {
+  border: 3px solid #fff;
+  width: 300px;
+  height: 300px;
 }
